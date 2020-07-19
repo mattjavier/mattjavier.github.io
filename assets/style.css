@@ -1,11 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
-
 #brandName {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   letter-spacing: 2px;
-  font-weight: 200;
 }
 
 .navBarLinks a {
-  letter-spacing: 2px;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 3px;
 }
