@@ -11,11 +11,24 @@
   font-family: 'Lato', sans-serif;
 }
 
-#grayScale {
+#tvtImage, #webGLImage {
+  width: 75%;
   filter: grayscale(100%);
 }
 
-#tvtImage, #webGLImage {
-  width: 75%;
+#tvtModal img, #webGLModal img {
+  width: 100%;
 }
 
+.modalText {
+  margin: 10px;
+}
+
+.modalText a {
+  text-emphasis: none;
+  cursor: pointer;
+}
+
+.carouselCaptions {
+  color: black;
+}
