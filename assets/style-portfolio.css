@@ -10,3 +10,12 @@
 #picRow {
   font-family: 'Lato', sans-serif;
 }
+
+#grayScale {
+  filter: grayscale(100%);
+}
+
+#tvtImage, #webGLImage {
+  width: 75%;
+}
+
