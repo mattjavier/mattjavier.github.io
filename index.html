@@ -46,11 +46,36 @@
     <!-- aboutMe -->
     <section class="container-fluid bg-secondary text-dark">
       <div id="aboutMe" class="text-center">
-        <p>
-          <a class="btn btn-primary" data-toggle="collapse" href="#collapsePersonal" role="button" aria-expanded="false" aria-controls="collapsePersonal">Get To Know Me</a>
-          <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseEducation" aria-expanded="false" aria-controls="collapseEducation">Education</button>
-          <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Work Experience</button>
-        </p>
+        <div class="accordion" id="accordionExample">
+          <section class="card bg-dark text-light">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0">
+                <button id="aboutButton" class="btn btn-link text-light collapsed text-direction-none" type="button" data-toggle="collapse" data-target="#collapseAbout" aria-expanded="true" aria-controls="collapseAbout">
+                  Get To Know Me
+                </button>
+              </h5>
+            </div>
+            <div id="collapseAbout" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+                I am currently a student at the UCI Coding Boot Camp, learning to be a full-stack developer. Check out my <a href="www.linkedin.com/in/mattjavier7">LinkedIn</a>, <a href="https://github.com/mattjavier">GitHub</a> and <a href="https://stackoverflow.com/users/13682689/mattjavier">Stack Overflow</a> profiles.
+              </div>
+            </div>
+          </section>
+          <section class="card bg-dark text-light">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+                <button id="eduButton" class="btn btn-link text-light collapsed text-direction-none" type="button" data-toggle="collapse" data-target="#collapseEducation" aria-expanded="true" aria-controls="collapseEducation">
+                  Education
+                </button>
+              </h5>
+            </div>
+            <div id="collapseEducation" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body">
+                I graduated in 2019 with a B.S. in Computer Science from the University of California, Irvine.
+              </div>
+            </div>
+          </section>
+        </div>
       </div>
     </section>
 

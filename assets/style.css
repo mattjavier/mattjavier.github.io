@@ -25,6 +25,24 @@
 
 #mainContainer h3 {
   font-family: 'Montserrat', sans-serif;
+  padding: 0 0 20px 0;
+}
+
+#aboutMe {
+  padding: 20px;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 1px;
+}
+
+#aboutButton, #eduButton {
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+#collapseAbout a {
+  text-decoration: none;
 }
 
 #myFooter {
@@ -52,5 +70,9 @@
 @media only screen and (max-width: 600px) {
   #brandName {
     font-size: 18px;
+  }
+
+  #personalImg {
+    width: 50%;
   }
 }
