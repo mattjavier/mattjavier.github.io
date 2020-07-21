@@ -1,14 +1,23 @@
 #myJumbo {
   border-radius: 0;
+  margin: 0;
 }
 
 #portfolioTitle {
+  padding-top: 50px;
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 2px;
+  font-size: 75px;
+}
+
+#portfolioContent {
+  margin: 0;
+  padding: 10px 10px 0 10px;
 }
 
 #picRow {
   font-family: 'Lato', sans-serif;
+  padding: 0 0 20px 0;
 }
 
 #picRow div {
@@ -35,4 +44,14 @@
 
 .carouselCaptions {
   color: black;
+}
+
+#info {
+  padding: 10px 10px 20px 10px;
+  margin-bottom: 0;
+}
+
+#description {
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
 }

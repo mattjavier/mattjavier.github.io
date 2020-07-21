@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./assets/style-portfolio.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     
@@ -43,7 +44,7 @@
     </section>
 
     <!-- Images of portfolio content, clickable -->
-    <section class="container-fluid bg-dark text-center">
+    <section id="portfolioContent" class="container-fluid bg-dark text-center">
       <div id="picRow" class="row bg-light">
 
         <!-- The Vintner's Tavern modal handling-->
@@ -155,10 +156,19 @@
           </div>  
         </div>
       </div>
+      <div id="info" class="row bg-light">
+        <p id="description" class="text-center">Above are previous personal and school projects. Click on the image to learn more.</p>
+      </div>
     </section>
 
-    <footer class="fixed-bottom navbar-expand-lg navbar-dark bg-dark">
-
+    <!-- footer with copyright and social media links -->
+    <footer id="myFooter" class="container-fluid text-light bg-primary d-flex justify-content-between">
+      <p id="copyrightFooter" class="text-left">&copy; Matthew Javier</p>
+      <section id="socialMediaLinks" class="text-right">
+        <a id="linkedinIcon" class="fa fa-linkedin text-light" href="www.linkedin.com/in/mattjavier7"></a>
+        <a id="githubIcon" class="fa fa-github text-light" href="https://github.com/mattjavier"></a>
+        <a id="stackoverflowIcon" class="fa fa-stack-overflow text-light" href="https://stackoverflow.com/users/13682689/mattjavier"></a>
+      </section>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

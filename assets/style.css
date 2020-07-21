@@ -3,7 +3,7 @@
 }
 
 #myNav {
-  opacity: 0.9;
+  /*opacity: 0.9;*/
 }
 
 #brandName {
@@ -19,4 +19,24 @@
 
 .myclass  {
   height: 100%;
+}
+
+#myFooter {
+  padding: 20px 0 20px 0;
+}
+
+#copyrightFooter {
+  margin: 0 0 0 10px;
+}
+
+#socialMediaLinks {
+  margin: 0 10px 0 0;
+}
+
+#linkedinIcon, #githubIcon, #stackoverflowIcon {
+  padding: 5px;
+}
+
+#linkedinIcon:hover, #githubIcon:hover, #stackoverflowIcon:hover {
+  text-decoration: none;
 }
