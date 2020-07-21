@@ -11,12 +11,16 @@
   font-family: 'Lato', sans-serif;
 }
 
-#tvtImage, #webGLImage {
+#picRow div {
+  padding-top: 20px;
+}
+
+#tvtImage, #osImage, #webGLImage {
   width: 75%;
   filter: grayscale(100%);
 }
 
-#tvtModal img, #webGLModal img {
+#tvtModal img, #osModal img, #webGLModal img {
   width: 100%;
 }
 
