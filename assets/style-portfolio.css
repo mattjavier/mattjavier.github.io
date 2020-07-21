@@ -35,8 +35,13 @@
   border-radius: 1px;
 }
 
+#tvtImage:hover, #osImage:hover, #webGLImage:hover {
+  filter: grayscale(0%);
+}
+
 .closeButton {
   margin-right: 10px;
+  margin-bottom: 5px;
 }
 
 .modalText {

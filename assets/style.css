@@ -13,9 +13,24 @@
   font-size: smaller;
 }
 
+#mainContainer {
+  padding: 10px;
+}
+
+#personalImg {
+  filter: grayscale(90%);
+  width: 30%;
+  margin: 100px 0 45px 0;
+}
+
+#mainContainer h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
 #myFooter {
   padding: 20px 0 20px 0;
   font-family: 'Lato', sans-serif;
+  letter-spacing: 2px;
 }
 
 #copyrightFooter {
@@ -32,4 +47,10 @@
 
 #linkedinIcon:hover, #githubIcon:hover, #stackoverflowIcon:hover {
   text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  #brandName {
+    font-size: 18px;
+  }
 }
