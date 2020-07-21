@@ -8,6 +8,7 @@
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 2px;
   font-size: 75px;
+  margin: 0;
 }
 
 #portfolioContent {
@@ -32,6 +33,10 @@
 #tvtModal img, #osModal img, #webGLModal img {
   width: 100%;
   border-radius: 1px;
+}
+
+.closeButton {
+  margin-right: 10px;
 }
 
 .modalText {
