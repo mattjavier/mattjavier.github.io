@@ -37,30 +37,30 @@
     </nav>
 
     <!-- Portfolio title -->
-    <section id="myJumbo" class="jumbotron bg-dark">
+    <section id="myJumboPortfolio" class="jumbotron bg-dark">
       <div class="container-fluid text-center bg-dark text-light">
         <h1 id="portfolioTitle">Portfolio</h1>
       </div>
     </section>
 
     <!-- Images of portfolio content, clickable -->
-    <section id="portfolioContent" class="container-fluid bg-dark text-center">
+    <section id="portfolioContent" class="container-fluid bg-light text-center">
       <div id="picRow" class="row bg-light">
 
         <!-- The Vintner's Tavern modal handling-->
-        <div class="col-md-4">
+        <div id="tvtCol" class="col-md-4">
           <p>The Vintner's Tavern</p>
           <img src="./assets/images/tvt.png" id="tvtImage" class="img-responsive img-thumbnail" data-toggle="modal" data-target="#tvtModal" alt="The Vintner's Tavern">
           <div class="modal fade bd-example-modal-lg" id="tvtModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
               <div class="modal-content bg-dark text-light">
 
                 <!-- Carousel for images -->
                 <div id="carouselTVTIndicators" class="carousel slide" data-ride="carousel">
                   <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselTVTIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselTVTIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselTVTIndicators" data-slide-to="2"></li>
                   </ol>
                   <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -94,19 +94,19 @@
         </div>
        
         <!-- 141OS modal handling -->
-        <div class="col-md-4">
+        <div id="osCol" class="col-md-4">
           <p>141OS</p>
           <img src="./assets/images/141os_1.png" id="osImage" class="img-responsive img-thumbnail" data-toggle="modal" data-target="#osModal" alt="141 OS">
           <div class="modal fade bd-example-modal-lg" id="osModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
               <div class="modal-content bg-dark text-light">
 
                 <!-- Carousel for images -->
                 <div id="carouselOSIndicators" class="carousel slide" data-ride="carousel">
                   <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselOSIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselOSIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselOSIndicators" data-slide-to="2"></li>
                   </ol>
                   <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -140,15 +140,15 @@
         </div>
 
         <!---WebGL shaders modal handling -->
-        <div class="col-md-4">
+        <div id="glCol" class="col-md-4">
           <p>WebGL Shaders</p>
           <img src="./assets/images/webgl.png" id="webGLImage" class="img-responsive img-thumbnail" data-toggle="modal" data-target="#webGLModal" alt="WebGL Project">
           <div class="modal fade bd-example-modal-lg" id="webGLModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
               <div class="modal-content bg-dark text-light">
                 <img src="./assets/images/webgl.png" class="img-responsive img-thumbnail" alt="WebGL Project">
                  <!-- description of images in modal -->
-                 <section class="modalText text-left">
+                <section class="modalText text-left">
                   <p>WebGL Graphics Project.<br>Implemented different shaders to show on 3D models. Developed in JavaScript, HTML and CSS.</p>
                 </section>
               </div>
@@ -157,7 +157,9 @@
         </div>
       </div>
       <div id="info" class="row bg-light">
-        <p id="description" class="text-center">Above are previous personal and school projects. Click on the image to learn more.</p>
+        <div class="container-fluid">
+          <p id="description" class="text-center">Above are previous personal and school projects. Click on the image to learn more.</p>
+        </div>
       </div>
     </section>
 

@@ -2,10 +2,6 @@
   border-radius: 0;
 }
 
-#myNav {
-  /*opacity: 0.9;*/
-}
-
 #brandName {
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 2px;
@@ -17,12 +13,9 @@
   font-size: smaller;
 }
 
-.myclass  {
-  height: 100%;
-}
-
 #myFooter {
   padding: 20px 0 20px 0;
+  font-family: 'Lato', sans-serif;
 }
 
 #copyrightFooter {
