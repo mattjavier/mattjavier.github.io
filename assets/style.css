@@ -18,9 +18,10 @@
 }
 
 #personalImg {
-  filter: grayscale(90%);
   width: 30%;
   margin: 100px 0 45px 0;
+  border: 3px #007bff solid;
+  filter: brightness(80%);
 }
 
 #mainContainer h3 {
