@@ -46,8 +46,10 @@
     <!-- aboutMe -->
     <section class="container-fluid bg-secondary text-dark">
       <div id="aboutMe" class="text-center">
-        <div class="accordion" id="accordionExample">
-          <section class="card bg-dark text-light">
+        
+        <!-- accordian collapseable cards -->
+        <div class="accordion" id="infoAccordion">
+          <section id="aboutCard" class="card bg-dark text-light">
             <div class="card-header" id="headingOne">
               <h5 class="mb-0">
                 <button id="aboutButton" class="btn btn-link text-light collapsed text-direction-none" type="button" data-toggle="collapse" data-target="#collapseAbout" aria-expanded="true" aria-controls="collapseAbout">
@@ -55,13 +57,13 @@
                 </button>
               </h5>
             </div>
-            <div id="collapseAbout" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div id="collapseAbout" class="collapse" aria-labelledby="headingOne" data-parent="#infoAccordion">
               <div class="card-body">
                 I am currently a student at the UCI Coding Boot Camp, learning to be a full-stack developer. Check out my <a href="www.linkedin.com/in/mattjavier7">LinkedIn</a>, <a href="https://github.com/mattjavier">GitHub</a> and <a href="https://stackoverflow.com/users/13682689/mattjavier">Stack Overflow</a> profiles.
               </div>
             </div>
           </section>
-          <section class="card bg-dark text-light">
+          <section id="eduCard" class="card bg-dark text-light">
             <div class="card-header" id="headingTwo">
               <h5 class="mb-0">
                 <button id="eduButton" class="btn btn-link text-light collapsed text-direction-none" type="button" data-toggle="collapse" data-target="#collapseEducation" aria-expanded="true" aria-controls="collapseEducation">
@@ -69,7 +71,7 @@
                 </button>
               </h5>
             </div>
-            <div id="collapseEducation" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div id="collapseEducation" class="collapse" aria-labelledby="headingTwo" data-parent="#infoAccordion">
               <div class="card-body">
                 I graduated in 2019 with a B.S. in Computer Science from the University of California, Irvine.
               </div>
@@ -88,6 +90,8 @@
         <a id="stackoverflowIcon" class="fa fa-stack-overflow text-light" href="https://stackoverflow.com/users/13682689/mattjavier"></a>
       </section>
     </footer>
+
+    <!-- JavaScript scripts -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>

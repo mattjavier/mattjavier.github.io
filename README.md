@@ -2,7 +2,7 @@
 
 A mobile responsive portfolio.
 
-* files include `index.html`, `portfolio.html`, `contact.html`, `reset.css` and `style.css`, `style-portfolio.css` and `style-contact.css`.
+* files include `index.html`, `portfolio.html`, `contact.html`, `reset.css` and `style.css`, `style-portfolio.css`, `style-contact.css` and an images folder.
 
 * The portfolio is developed mostly with Bootstrap, with additional styling in `style.css`, `style-portfolio.css` and `style-contact.css`. It includes:
 

@@ -28,6 +28,16 @@
   letter-spacing: 2px;
 }
 
+#moreContact {
+  font-family: 'Lato', sans-serif;
+  padding: 30px 0 0 0;
+  font-size: 12px;
+}
+
+#mapIcon, #envelopeIcon, #phoneIcon {
+  font-size: 15px;
+}
+
 @media only screen and (max-width: 900px) {
   #contactContainer {
     width: 100%;
