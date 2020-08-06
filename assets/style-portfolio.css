@@ -21,21 +21,21 @@
   padding: 0 0 20px 0;
 }
 
-#tvtCol, #osCol, #glCol {
+#tvtCol, #osCol, #glCol, #sensifyCol {
   padding-top: 10px;
 }
 
-#tvtImage, #osImage, #webGLImage {
+#tvtImage, #osImage, #webGLImage, #sensifyImage {
   width: 75%;
   filter: grayscale(100%);
 }
 
-#tvtModal img, #osModal img, #webGLModal img {
+#tvtModal img, #osModal img, #webGLModal img, #sensifyModal img {
   width: 100%;
   border-radius: 1px;
 }
 
-#tvtImage:hover, #osImage:hover, #webGLImage:hover {
+#tvtImage:hover, #osImage:hover, #webGLImage:hover, #sensifyImage:hover {
   filter: grayscale(0%);
 }
 
