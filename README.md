@@ -12,4 +12,10 @@ A mobile responsive portfolio.
 
   * responsive images
 
+* Here is a screenshot of the homepage
+<img src="./assets/images/screenshot1.png" width="400">
+
+* Here is a screenshot of the portfolio page
+<img src="./assets/images/screenshot2.png" width="400">
+
 View the online portfolio here: https://mattjavier.github.io
