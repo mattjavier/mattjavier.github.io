@@ -21,21 +21,27 @@
   padding: 0 0 20px 0;
 }
 
-#tvtCol, #osCol, #glCol, #sensifyCol, #burgerCol, #employeeCol, #weatherCol, #quizCol {
+#tvtCol, #osCol, #glCol, #sensifyCol, #burgerCol, #employeeCol, #weatherCol, #quizCol, #coviewCol {
   padding-top: 10px;
 }
 
-#tvtImage, #osImage, #webGLImage, #sensifyImage, #burgerImage, #employeeImage, #weatherImage, #quizImage {
+#tvtImage, #osImage, #webGLImage, 
+#sensifyImage, #burgerImage, #employeeImage, 
+#weatherImage, #quizImage, #coviewImage {
   width: 75%;
   filter: grayscale(100%);
 }
 
-#tvtModal img, #osModal img, #webGLModal img, #sensifyModal img, #burgerModal img, #employeeImage img, #weatherImage img, #quizImage img {
+#tvtModal img, #osModal img, #webGLModal img, 
+#sensifyModal img, #burgerModal img, #employeeImage img, 
+#weatherImage img, #quizImage img, #coviewImage img {
   width: 100%;
   border-radius: 1px;
 }
 
-#tvtImage:hover, #osImage:hover, #webGLImage:hover, #sensifyImage:hover, #burgerImage:hover, #employeeImage:hover, #weatherImage:hover, #quizImage:hover {
+#tvtImage:hover, #osImage:hover, #webGLImage:hover, 
+#sensifyImage:hover, #burgerImage:hover, #employeeImage:hover, 
+#weatherImage:hover, #quizImage:hover, #coviewImage:hover {
   filter: grayscale(0%);
 }
 
