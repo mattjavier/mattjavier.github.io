@@ -16,26 +16,26 @@
   padding: 20px 10px 0 10px;
 }
 
-#picRow, #picRow2 {
+#picRow, #picRow2, #picRow3 {
   font-family: 'Lato', sans-serif;
   padding: 0 0 20px 0;
 }
 
-#tvtCol, #osCol, #glCol, #sensifyCol, #burgerCol {
+#tvtCol, #osCol, #glCol, #sensifyCol, #burgerCol, #employeeCol, #weatherCol, #quizCol {
   padding-top: 10px;
 }
 
-#tvtImage, #osImage, #webGLImage, #sensifyImage, #burgerImage {
+#tvtImage, #osImage, #webGLImage, #sensifyImage, #burgerImage, #employeeImage, #weatherImage, #quizImage {
   width: 75%;
   filter: grayscale(100%);
 }
 
-#tvtModal img, #osModal img, #webGLModal img, #sensifyModal img, #burgerModal img {
+#tvtModal img, #osModal img, #webGLModal img, #sensifyModal img, #burgerModal img, #employeeImage img, #weatherImage img, #quizImage img {
   width: 100%;
   border-radius: 1px;
 }
 
-#tvtImage:hover, #osImage:hover, #webGLImage:hover, #sensifyImage:hover, #burgerImage:hover {
+#tvtImage:hover, #osImage:hover, #webGLImage:hover, #sensifyImage:hover, #burgerImage:hover, #employeeImage:hover, #weatherImage:hover, #quizImage:hover {
   filter: grayscale(0%);
 }
 
