@@ -28,7 +28,9 @@
 #tvtImage, #osImage, #webGLImage, 
 #sensifyImage, #burgerImage, #employeeImage, 
 #weatherImage, #quizImage, #coviewImage {
-  width: 75%;
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
   filter: grayscale(100%);
 }
 
